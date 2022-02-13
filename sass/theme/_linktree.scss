@@ -1,0 +1,72 @@
+// linktree
+
+#links-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.linktree-img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+  border-radius: 100px;
+  transition: all 0.2s ease;
+}
+
+.linktree-mark-link {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  margin-bottom: 40px;
+  .linktree-mark-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 50px;
+    transition: all 0.2s ease;
+  }
+  .linktree-mark-img-hover {
+    opacity: 0;
+  }
+  &:hover {
+    .linktree-mark-img-main {
+      opacity: 0;
+    }
+    .linktree-mark-img-hover {
+      opacity: 1;
+    }
+  }
+}
+
+.link-list {
+  width: 100%;
+  margin: 0 0 60px 0;
+  padding: 0;
+  list-style: none;
+  li {
+    margin: 0 20px;
+    padding: 0;
+    text-align: center;
+    border: 1px solid $secondarycolor;
+    opacity: 0;  
+    &:not(:last-of-type) {
+      margin-bottom: 20px;
+    }
+    a {
+      display: block;
+      padding: 1rem 2rem;
+      color: $secondarycolor;
+      text-decoration: none;
+      transition: color 0.2s ease, background 0.2s ease;
+      &:hover {
+        color: $white;
+        background: $secondarycolor;
+      }
+    }
+  }
+}

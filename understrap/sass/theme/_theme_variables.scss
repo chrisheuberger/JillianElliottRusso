@@ -1,0 +1,56 @@
+// all custom variables
+
+$accentcolor: #ffc700;
+$brightaccentcolor: #ef6165;
+
+$maincolor: #2A3F41; // rgb(42,63,65)
+$lightmaincolor: lighten(#2A3F41, 40%); // #86adb1 rgb(134,173,177)
+$lightmaincolor2: lighten(#2A3F41, 70%); // #e3eced rgb(227,236,237)
+
+$secondarycolor: #45775D; // rgb(69,119,93)
+$darksecondarycolor: darken(#45775D, 20%); // #20362b rgb(32,54,43)
+
+$black: #000;
+$bluegray: #747F8A; // rgb(116,127,138);
+$lightgray: #ccc;
+$lightgray2: #f4f4f3; // rgb(244,244,243);
+$white: #ffffff;
+
+// unused colors
+
+// #5FA14F; // rgb(95,161,79);
+// darken(#45775D, 20%); // #20362b // rgb(32,54,43);
+
+// overwrites of Bootstrap variables stored in src/sass/bootstrap4/_variables.scss
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i'); // 300, 400, 700
+
+$font-family-sans-serif: "Open Sans", sans-serif;
+$primary: $maincolor !default;
+$navbar-light-color: #fff;
+
+$grid-breakpoints: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$grid-breakpoints: map-merge(
+  (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1600px
+  ),
+  $grid-breakpoints
+);
+
+$container-max-widths: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$container-max-widths: map-merge(
+  (
+    sm: 600px,
+    md: 780px,
+    lg: 960px,
+    xl: 1000px
+  ),
+  $container-max-widths
+);
