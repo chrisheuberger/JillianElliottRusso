@@ -164,9 +164,10 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="content-col-2">
               <ul>
                 <li>Hollis Taggart</li>
-                <li>The Richard Pousette-Dart Foundation</li>
-                <li>The Art Students League</li>
+                <li>International Print Center New York</li>
                 <li>Kaish Family Art Project</li>
+                <li>The Art Students League</li>
+                <li>The Richard Pousette-Dart Foundation</li>
               </ul>
             </div>
           </div>
