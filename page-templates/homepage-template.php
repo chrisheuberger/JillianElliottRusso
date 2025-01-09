@@ -63,7 +63,7 @@ $container = get_theme_mod( 'understrap_container_type' );
               <li class="services-list-item">Exhibition Curation and Development</li>
               <li class="services-list-item">Digital Content</li>
               <li class="services-list-item">Collection Management</li>
-              <li class="services-list-item">Strategic Planning</li>
+              <li class="services-list-item">Developmental Editing</li>
             </ul>
             <div class="services-btn-wrapper services-btn-mobile">
               <a class="services-btn animated-element" href="<?php echo site_url('/services'); ?>">Learn More</a>
@@ -163,9 +163,13 @@ $container = get_theme_mod( 'understrap_container_type' );
             </div>
             <div class="content-col-2">
               <ul>
+                <li>Chrysler Museum of Art</li>
+                <li>Elizabeth Rundquist</li>
                 <li>Hollis Taggart</li>
                 <li>International Print Center New York</li>
                 <li>Kaish Family Art Project</li>
+                <li>Libbie Mark Provincetown Fund</li>
+                <li>Rosenberg & Co.</li>
                 <li>The Art Students League</li>
                 <li>The Richard Pousette-Dart Foundation</li>
               </ul>

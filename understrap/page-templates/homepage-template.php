@@ -60,7 +60,7 @@ $container = get_theme_mod( 'understrap_container_type' );
               <li class="services-list-item">Exhibition curation and development</li>
               <li class="services-list-item">Digital Content</li>
               <li class="services-list-item">Collection Management</li>
-              <li class="services-list-item">Strategic Planning</li>
+              <li class="services-list-item">Developmental Editing</li>
             </ul>
           </div>
         </div>
